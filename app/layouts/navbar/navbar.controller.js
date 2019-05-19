@@ -106,14 +106,6 @@
             var useragent = navigator.userAgent;
             data["UserAgent"] = useragent;
 
-
-            //extra code to display the values in html
-            /*var display = "";
-            for(var key in data) {
-                if (key != "") display += "<b>" + key + "</b> : " + data[key] + "<br>";
-            }
-            document.getElementById("dump").innerHTML =  display;*/
-
             return data;
         }
 
